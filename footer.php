@@ -112,6 +112,7 @@
     <script type='text/javascript' src="js/layerslider.transitions.js"></script> 
     <!--<script type="text/javascript">var lsjQuery = jQuery;</script>--> 
     <script type="text/javascript">var lsjQuery = jQuery;</script><script type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_1','jquery'); } else { lsjQuery("#layerslider_4").layerSlider({responsiveUnder: 1240, layersContainer: 1060, skinsPath: 'js/layerslider/skins/'}) } }); </script>
-    
+    <?php 
+    wp_footer(); ?>
 </body>
 </html>
