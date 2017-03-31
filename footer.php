@@ -87,7 +87,7 @@
     <!--wrapper ends-->
     <a href="" title="Go to Top" class="back-to-top">To Top ↑</a>
     <!--Java Scripts-->
-    <script type="text/javascript" src="js/jquery.js"></script>
+   <!-- <script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
 
     
@@ -103,13 +103,13 @@
     <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>   
     <script type="text/javascript" src="js/shortcodes.js"></script>   
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>-->
     
     <!-- Layer Slider --> 
-    <script type="text/javascript" src="js/jquery-transit-modified.js"></script> 
+  <!--  <script type="text/javascript" src="js/jquery-transit-modified.js"></script> 
     <script type="text/javascript" src="js/layerslider.kreaturamedia.jquery.js"></script> 
     <script type='text/javascript' src="js/greensock.js"></script> 
-    <script type='text/javascript' src="js/layerslider.transitions.js"></script> 
+    <script type='text/javascript' src="js/layerslider.transitions.js"></script> -->
     <!--<script type="text/javascript">var lsjQuery = jQuery;</script>--> 
     <script type="text/javascript">var lsjQuery = jQuery;</script><script type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_1','jquery'); } else { lsjQuery("#layerslider_4").layerSlider({responsiveUnder: 1240, layersContainer: 1060, skinsPath: 'js/layerslider/skins/'}) } }); </script>
     <?php 

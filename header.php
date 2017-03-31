@@ -28,7 +28,6 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!--Fonts-->
-<!--<?php wp_enqueue_script('jquery'); ?>-->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
@@ -42,7 +41,7 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <a href="index.html" title="Music Blocks"><img src="images/logo2.png" alt="Logo" width="150" height="92" title="Music Blocks"></a>
+                    <a href="index.html" title="Music Blocks"><img src="<?php echo get_template_directory_uri() ?>/images/logo2.png" alt="Logo" width="150" height="92" title="Music Blocks"></a>
                 </div>
                 <div class="contact-details">
                     <p class="mail">
